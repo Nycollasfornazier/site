@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.prime-imagem{
+    width: 25%;
+}
+
+#Primeiro{
+    background-image: linear-gradient(#fc3434,#f81616);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.prime-div-conteudo{
+    width: 35%;
+}
+
+
+.prime-titulo{
+    padding: 24px 0;
+}
+
+#influencer{
+    padding: 24px 0;
+}
+
+
+.influencer-imagem{
+    width: 120px;
+}
+
+.influencer-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.influencer-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.influencer-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.influencer-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
